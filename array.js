@@ -2,8 +2,8 @@ import memory from './memory'
 
 class Array {
     constructor() {
-        this.length = 5;
-        this._capacity = 2;
+        this.length = 0;
+        this._capacity = 0;
         this.ptr = memory.allocate(this.length);
     }
 
