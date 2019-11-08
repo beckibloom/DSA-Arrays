@@ -1,6 +1,6 @@
 //Implement the array from scratch using the memory module
 
-import memory from '../memory'
+const memory = require('../memory')
 
 class MyArray {
     constructor() {
@@ -103,3 +103,5 @@ class MyArray {
 }
 
 MyArray.SIZE_RATIO = 3
+
+module.exports = MyArray;
