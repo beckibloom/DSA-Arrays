@@ -4,9 +4,9 @@ const memory = require('../memory')
 
 class MyArray {
     constructor() {
-        this.length = 0
-        this._capacity = 0
-        this.ptr = memory.allocate(this.length)
+        this.length = 0;
+        this._capacity = 0;
+        this.ptr = memory.allocate(this.length);
     }
 
     push(value) {
